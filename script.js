@@ -88,7 +88,7 @@ class Explosion {
         this.x = x;
         this.y = y;
         this.sound = new Audio();
-        this.sound.src = "../../explosions/explode.wav";
+        this.sound.src = "explode.wav";
         this.frame = 0;
         this.timeSinceLastFrame = 0;
         this.frameInterval = 200;
