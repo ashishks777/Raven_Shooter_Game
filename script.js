@@ -32,7 +32,7 @@ class Raven {
         this.directionY = Math.random() * 5 - 2.5;
         this.markedForDeletion = false;
         this.image = new Image();
-        this.image.src = "../../images/raven.png";
+        this.image.src = "raven.png";
         this.frame = 0;
         this.maxFrame = 4;
         this.timeSinceFlap = 0;
@@ -81,7 +81,7 @@ let explosions = [];
 class Explosion {
     constructor(x, y, size) {
         this.image = new Image();
-        this.image.src = "../../images/boom.png";
+        this.image.src = "boom.png";
         this.spriteWidth = 200;
         this.spriteHeight = 179;
         this.size = size;
